@@ -9,6 +9,7 @@ import (
 	"github.com/divkix/Alita_Robot/alita/db/lang"
 	"github.com/divkix/Alita_Robot/alita/db/rules"
 	"github.com/divkix/Alita_Robot/alita/utils/chattz"
+	"github.com/divkix/Alita_Robot/alita/utils/digestsettings"
 )
 
 // Timezone is the group's display timezone, stored as an IANA name.
