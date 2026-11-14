@@ -1,4 +1,3 @@
-// tr language support
 package settings
 
 import (
