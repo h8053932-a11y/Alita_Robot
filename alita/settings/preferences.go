@@ -147,9 +147,9 @@ func ReadTimezoneContext(ctx context.Context, chatID int64) (string, error) {
 	return Timezone.effective(name).(string), nil
 }
 
-var Language = &Declaration{
+Options: []string{"en", "es", "fr", "hi", "ru", "pt", "id", "tr"},
 	Key: "language.code", Type: Choice, Default: "en", Right: Admin,
-	Options: []string{"en", "es", "fr", "hi", "ru", "pt", "id"},
+	Options: []string{"en", "es", "fr", "hi", "ru", "pt", "id"},tr
 	read:    func(ctx context.Context, chatID int64) any { return lang.GetGroupLanguage(ctx, chatID) },
 	write: func(input WriteContext, value any) error {
 		return lang.ChangeGroupLanguage(input.ChatID, value.(string))
