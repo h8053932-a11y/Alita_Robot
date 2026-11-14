@@ -1,1 +1,14 @@
 
+language_name: "Türkçe"
+language_flag: "🇹🇷"
+language_help_translate: "Çeviriye Yardım Et 🌎"
+language_current_user: "Mevcut diliniz: %s\nAşağıdaki klavyeden dil seçin."
+language_current_group: "Bu grubun mevcut dili: %s\nAşağıdaki klavyeden dil seçin."
+language_changed_user: "Diliniz %s olarak değiştirildi."
+language_changed_group: "Bu grubun dili %s olarak değiştirildi."
+language_invalid_selection: "Geçersiz dil seçimi."
+
+start_msg: "Merhaba! Ben Alita, grup yönetim botuyum.\n\nGrubunuzu yönetmek için beni yönetici yapın ve /help yazın."
+start_private: "Merhaba! Ben Alita.\n\nGrubunuzda kullanmak için beni yönetici olarak ekleyin."
+
+help_msg: "Alita yardım menüsü\n\nTemel komutlar:\n/start - Botu başlat\n/help - Bu mesaj\n/lang - Dil değiştir\n\nDaha fazla komut için /help yazın."
